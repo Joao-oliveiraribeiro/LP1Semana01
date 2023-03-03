@@ -15,6 +15,8 @@ namespace TiposVarios
             char phone = '\u260e';
             double real = -3.123;
             double real_2 = 4.571;
+            bool condition = true;
+            bool condition_2 = -1>3;
 
 
             Console.WriteLine("Hello, World!");
@@ -24,6 +26,8 @@ namespace TiposVarios
             Console.WriteLine(phone);
             Console.WriteLine(real);
             Console.WriteLine(real_2);
+            Console.WriteLine(condition);
+            Console.WriteLine(condition_2);
         }
     }
 }
