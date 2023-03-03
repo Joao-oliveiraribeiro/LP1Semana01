@@ -4,13 +4,21 @@ namespace TiposVarios
 {
     class Program
     {
-        int value = 8;
-        decimal pi = 3.1415m;
+        
+        
 
         static void Main(string[] args)
         {
+            decimal pi = 3.1415m;
+            int value = 8;
+            char music = '\u266b';
+            char phone = '\u260e';
+
             Console.WriteLine("Hello, World!");
-            Console.WriteLine;
+            Console.WriteLine(value);
+            Console.WriteLine(pi);
+            Console.WriteLine(music);
+            Console.WriteLine(phone);
         }
     }
 }
