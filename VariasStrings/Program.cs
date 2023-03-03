@@ -17,10 +17,10 @@ namespace VariasStrings
             int y= 10;
             int z=5;
             string name = "programador";
-            string adicionar_uma_variavel = x + "World";
+            string adicionar_uma_variavel = x + " World";
             string interpolaçao = $"O y equivale a {y}";
             string soma = $"Para somar y={y} + z={z} fica {y + z}";
-            string hello_and_name =String.Format("Hello {0}, name");
+            string hello_and_name =String.Format("Hello {0}",name);
             string valores_y_z =String.Format("y e z sao {0} e {1} ",y,z);
             Console.WriteLine("Hello, World!");
             Console.WriteLine(starting_message);
@@ -35,7 +35,7 @@ namespace VariasStrings
             Console.WriteLine(hello_and_name);
             Console.WriteLine(valores_y_z);
             Console.WriteLine("Valor de z e y são {0} e {1}",z,y);
-            Console.WriteLine(@"Uso de verbatim e unicode \u0021");
+            Console.WriteLine(@"Uso de verbatim  z= {0}", z);
             
         }
     }
