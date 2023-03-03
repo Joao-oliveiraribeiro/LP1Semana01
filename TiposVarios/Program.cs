@@ -13,12 +13,17 @@ namespace TiposVarios
             int value = 8;
             char music = '\u266b';
             char phone = '\u260e';
+            double real = -3.123;
+            double real_2 = 4.571;
+
 
             Console.WriteLine("Hello, World!");
             Console.WriteLine(value);
             Console.WriteLine(pi);
             Console.WriteLine(music);
             Console.WriteLine(phone);
+            Console.WriteLine(real);
+            Console.WriteLine(real_2);
         }
     }
 }
