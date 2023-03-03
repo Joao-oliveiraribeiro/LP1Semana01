@@ -6,6 +6,8 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
+            double xx = 0.12345;
+            int ii = 18;
             string starting_message = "Welcome";
             string gameover_message = "You lost!";
             string message_and_copyright = "This message is subject to copyright \u00A9";
@@ -36,7 +38,8 @@ namespace VariasStrings
             Console.WriteLine(valores_y_z);
             Console.WriteLine("Valor de z e y são {0} e {1}",z,y);
             Console.WriteLine(@"Uso de verbatim  z= {0}", z);
-            
+            Console.WriteLine("{0:f2} e {0:p1}",xx);
+            Console.WriteLine("{0:x} em hexadecimal equivale a {0:c} euros",ii);
         }
     }
 }
