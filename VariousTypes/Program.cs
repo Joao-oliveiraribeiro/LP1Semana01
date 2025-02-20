@@ -12,6 +12,8 @@ namespace VariousTypes
             char z_min = '\u007A';
             double real = 1.353;
             double real_2 = 2.564;
+            bool condition = true;
+            bool condition_2 = -4>1;
 
             Console.WriteLine("Hello LP1!");
             Console.WriteLine(value);
@@ -20,6 +22,8 @@ namespace VariousTypes
             Console.WriteLine(z_min);
             Console.WriteLine(real);
             Console.WriteLine(real_2);
+            Console.WriteLine(condition);
+            Console.WriteLine(condition_2);
         }
     }
 }
