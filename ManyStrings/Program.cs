@@ -13,6 +13,11 @@ namespace ManyStrings
             string name = "Luis";
             string hello_name =String.Format("Hello {0}",name);
             Console.WriteLine("Hello LP1!");
+            Console.WriteLine(starting);
+            Console.WriteLine(close);
+            Console.WriteLine(copyright);
+            Console.WriteLine(unicode);
+            Console.WriteLine(hello_name);
         }
     }
 }
