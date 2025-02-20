@@ -24,6 +24,9 @@ namespace ManyStrings
             Console.WriteLine(copyright);
             Console.WriteLine(unicode);
             Console.WriteLine(hello_name);
+            Console.WriteLine(add_variable);
+            Console.WriteLine(interpolation);
+            Console.WriteLine(add_sum);
         }
     }
 }
