@@ -25,7 +25,10 @@ namespace Percentagem
             string s4 = $"{con_number_4,7:p2}";
 
             
-            
+            Console.WriteLine(s1);
+            Console.WriteLine(s2);
+            Console.WriteLine(s3);
+            Console.WriteLine(s4);
         }
     }
 }
