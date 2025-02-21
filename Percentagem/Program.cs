@@ -19,16 +19,7 @@ namespace Percentagem
             float con_number_3 = float.Parse(number_3);
             float con_number_4 = float.Parse(number_4);
 
-            string s1 = $"{con_number_1,7:p2}";
-            string s2 = $"{con_number_2,7:p2}";
-            string s3 = $"{con_number_3,7:p2}";
-            string s4 = $"{con_number_4,7:p2}";
-
             
-            Console.WriteLine(s1);
-            Console.WriteLine(s2);
-            Console.WriteLine(s3);
-            Console.WriteLine(s4);
         }
     }
 }
