@@ -8,7 +8,11 @@ namespace AskForInput
         {
             Console.WriteLine("Insira um numero inteiro: ");
             string inputInt = Console.ReadLine();
-            
+
+            int int_number = int.Parse(inputInt);
+
+            Console.WriteLine("Insira um numero real: ");
+            string inputFloat = Console.ReadLine();
         }
     }
 }
